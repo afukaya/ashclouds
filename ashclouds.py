@@ -120,7 +120,7 @@ def simulate_clouds(airports, max_lines, max_cols, data):
     return 
 
 def main():
-    file_path = 'D:\\Users\\afukaya\\OneDrive\\Repos\\Github\\Organizations\\DojoPuzzle\\ashclouds\\'
+    file_path = '.\\'
     file_name = 'ash1.txt'
     raw_data = load_data(file_path,file_name)
     airport_count, max_lines, max_cols, ash_data = transform_data(raw_data)
